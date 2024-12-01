@@ -16,6 +16,14 @@
 - After
   - [AfterRecords.java](src/main/java/m/records/AfterRecords.java)
   - Notice `id()` method instead of `getId()`
+- Immutability is hard!
+  - [Setup.java](src/main/java/m/immutability/Setup.java)
+  - Fixing attempt 1 using `unmodifiableSet`
+    - [Attempt1.java](src/main/java/m/immutability/Attempt1.java)
+    - Notice the use of **canonical** constructor
+    - Can also have **overloaded** constructor(s)
+  - Fixing attempt 2 using `copyOf`
+    - [Attempt2.java](src/main/java/m/immutability/Attempt2.java)
 
 ## Data-Oriented Programming (DOP)
 - Setting up a classic example; Object-Oriented Programming (OOP) 101 
@@ -43,3 +51,4 @@
 
 ## References
 - [Java Language Updates](https://docs.oracle.com/en/java/javase/21/language/index.html)
+- [Data Oriented Programming](https://www.infoq.com/articles/data-oriented-programming-java/) 
