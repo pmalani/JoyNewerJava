@@ -16,6 +16,7 @@
 - After
   - [AfterRecords.java](src/main/java/m/records/AfterRecords.java)
   - Notice `id()` method instead of `getId()`
+  - To summarize: a record is a immutable (shallow) named tuple
 - Immutability is hard!
   - [Setup.java](src/main/java/m/immutability/Setup.java)
   - Fixing attempt 1 using `unmodifiableSet`
@@ -51,4 +52,5 @@
 
 ## References
 - [Java Language Updates](https://docs.oracle.com/en/java/javase/21/language/index.html)
-- [Data Oriented Programming](https://www.infoq.com/articles/data-oriented-programming-java/) 
+- [Data Oriented Programming](https://www.infoq.com/articles/data-oriented-programming-java/)
+- [Pattern Matching in Java - Past, Present, Future](https://www.youtube.com/watch?v=GurtoM8i2TE)
