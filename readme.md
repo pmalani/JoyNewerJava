@@ -16,7 +16,7 @@
 - After
   - [AfterRecords.java](src/main/java/m/records/AfterRecords.java)
   - Notice `id()` method instead of `getId()`
-  - To summarize: a record is a immutable (shallow) named tuple
+  - To summarize: a record is an immutable (shallow) named tuple
 - Immutability is hard!
   - [Setup.java](src/main/java/m/immutability/Setup.java)
   - Fixing attempt 1 using `unmodifiableSet`
